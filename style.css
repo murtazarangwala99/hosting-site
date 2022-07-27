@@ -1,0 +1,344 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Raleway:wght@400;500;600;700&display=swap");
+:root {
+    --blue: #08b1f6;
+    --dark-blue: #0568eb;
+    --black: #000000;
+    --white: #ffffff;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+
+/* Navbar CSS */
+.navbar{
+    display: flex;
+    margin: 1.5rem 3rem;
+}
+.nav-logo{
+    margin-right: 19rem;
+}
+.nav-logo img{
+    height: 50px;
+    width: 130px;
+}
+.nav-mid{
+    margin: 20px;
+}
+.list-items{
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+}
+.list-item{
+    list-style: none;
+}
+.list-item a{
+    text-decoration: none;
+    color: grey;
+    font-weight: 600;
+}
+.li-nav-active a{
+    color: var(--black);
+}
+.nav-btn{
+    border-radius: 10px;
+    border: 2px solid var(--blue);
+    color: var(--blue);
+    margin: 10px 5rem;
+    padding: 10px 25px;
+    font-size: 16px;
+    font-weight: 700;
+}
+/* Hero Section 1 */
+.hero-one{
+    display: flex;
+    margin: 5rem 3rem;
+}
+.hero-one-left{
+    color: #2f2c2c;
+}
+.hero-one-left h2{
+    font-size: 56px;
+    width: 79%;
+}
+.hero-one-left p{
+    font-size: 16px;
+    width: 70%;
+    margin: 1.5rem 0;
+    color: #758283;
+    line-height: 35px;
+}
+.btn{
+    background: linear-gradient(var(--blue), var(--dark-blue));
+    padding: 15px 25px;
+    border-radius: 10px;
+    color: var(--white);
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+}
+/* Hero Section 2 */
+.hero-two{
+    margin: 8rem 3rem;
+    display: flex;
+    color: #2f2c2c;
+}
+.hero-two-right h2{
+    font-size: 56px;
+}
+.hero-two-right p{
+    font-size: 16px;
+    width: 70%;
+    margin: 1.5rem 0;
+    color: #758283;
+    line-height: 35px;
+}
+.btn-read-more{
+    padding: 15px 45px;
+}
+/* Hero section 3 */
+.hero-three{
+    margin: 8rem 3rem;
+    display: flex;
+    color: #2f2c2c;
+}
+.hero-three-left h2{
+    font-size: 56px;
+}
+.hero-three-left p{
+    font-size: 16px;
+    margin: 1.5rem 0;
+    color: #758283;
+    line-height: 35px;
+}
+/* Hero Section 4 */
+.hero-four{
+    margin: 8rem 3rem;
+    display: flex;
+    color: #2f2c2c;
+}
+.hero-four h2{
+    font-size: 56px;
+    width: 55%;
+}
+.hero-four p{
+    font-size: 16px;
+    width: 45%;
+    margin: 1.5rem 0 0 3.5rem;
+    color: #758283;
+    line-height: 35px;
+}
+/* Card CSS */
+.card-containers{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 3rem 5rem;
+    gap: 4rem;
+}
+.card{
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: #0000001a 0px 8px 5px;
+}
+.card img{
+    width: 50px;
+}
+.card-title{
+    font-size: 22px;
+    padding: 1rem 0;
+}
+.card-description{
+    font-size: 14px;
+    line-height: 35px;
+    color: #758283;
+}
+/* Pricing Section */
+.pricing{
+    border: 2px solid purple;
+    background: linear-gradient(var(--blue), var(--dark-blue));
+    padding-left: 8%;
+}
+.pricing h2{
+    font-size: 56px;
+    color: var(--white);
+    margin-left: 14%;
+    padding: 4rem 0 1.5rem 0;
+}
+.pricing-cards{
+    display: flex;
+    margin: 3rem 4rem 4rem;
+    gap: 2rem;
+}
+.price-card{
+    color: var(--black);
+    background-color: var(--white);
+    border-radius: 10px;
+    width: 330px;
+    border: 2px solid green;
+}
+.price-card-top{
+    padding: 2.5rem;
+    border-radius: 8px;
+}
+.price-card-heading{
+    font-size: 26px;
+    font-weight: 700;
+    padding: 0 0 10px 0;
+}
+.price-card-description{
+    color: #758283;
+}
+.price-card-middle{
+    line-height: 50px;
+    color: #758283;
+    padding: 20px 30px 70px;
+}
+.price-facility{
+    font-weight: 600;
+}
+.price-card-bottom{
+    text-align: center;
+    padding: 1.5rem;
+}
+.price{
+    font-size: 24px;
+    font-weight: 700;
+}
+.price-card-bottom span{
+    color: #758283;
+}
+.cancel-anytime{
+    color: #758283;
+    font-size: 15px;
+}
+.plan-btn{
+    padding: 15px 35px;
+    cursor: pointer;
+}
+.price-card-recommend{
+    display: flex;
+    flex-direction: column;
+    box-shadow: #2f2c2c 0 0 10px 3px;
+}
+.top-recommend{
+    padding-bottom: 25px;
+    color: var(--white);
+    background: #333333;
+}
+.middle-recommend{
+    padding: 16px 30px 60px;
+}
+.btn-recommend{
+    background: linear-gradient(var(--blue), var(--dark-blue));
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    color: var(--white);
+}
+.customer{
+    margin: 100px 0;
+}
+.customer h2{
+    text-align: center;
+    font-size: 56px;
+    font-weight: 600;
+    padding: 50px 0 10px ;
+}
+.customer p{
+    margin-left: 27%;
+    text-align: center;
+    width: 50%;
+}
+/* Staff CSS */
+.staff-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 3rem 5rem;
+    gap: 5rem;
+}
+.staff{
+    box-shadow: #0000001a 0px 8px 5px;
+    border-radius: 10px;
+    padding: 1rem;
+    color: #758283;
+}
+.staff p{
+    padding-bottom: 2rem;
+}
+.staff img{
+    display: inline;
+}
+.staff h4{
+    color: var(--black);
+}
+.staff-det{
+    display: inline;
+    position: relative;
+    bottom: 50px;
+    left: 48px;
+}
+.worry{
+    background: linear-gradient(var(--blue),var(--dark-blue));
+    display: flex;
+    margin: 150px 0;
+    padding: 5.5rem;
+    color: var(--white);
+}
+.worry-left{
+    width: 47%;
+}
+.worry-left h2{
+    font-size: 56px;
+}
+.worry-left p{
+    font-size: 14px;
+    line-height: 30px;
+}
+.worry-right{
+    margin: 6rem 0 0 25rem;
+}
+.register-btn{
+    border-radius: 10px;
+    border: 2px solid var(--white);
+    color: var(--white);
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 700;
+}
+/* Footer CSS */
+.footer{
+    display: flex;
+    position: relative;
+    bottom: 0px;
+    margin: 4.4rem 4.4rem 2.5rem;
+    gap: 6rem;
+}
+.footer-heading{
+    padding: 15px 0;
+}
+
+.f-1{
+    width: 30%;
+}
+.f-1 img{
+    width: 100px;
+}
+.f-1 p{
+    padding: 20px 0 0 0;
+    color: #758283;
+}
+.footer-li{
+    list-style: none;
+    line-height: 40px;
+    color: #758283;
+}
+.f-5 img{
+    width: 35px;
+    height: 35px;
+}
