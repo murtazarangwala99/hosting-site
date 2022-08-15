@@ -26,6 +26,9 @@
     .hero-three-right{
         width: 85%;
     }
+    .hero-four h2{
+        font-size: 2rem;
+    }
 
 }
 
@@ -41,12 +44,33 @@
         justify-content: center;
         width: 85%;
     }
+    .hero-one{
+        margin: 2rem;
+    }
+    .hero-one-left h2{
+        font-size: 2.5rem;
+    }
+    .hero-two{
+        margin: 2rem;
+    }
+    .hero-two-right h2{
+        font-size: 2.5rem;
+    }
+    .hero-three{
+        margin: 2rem;
+    }
+    .hero-three-left h2{
+        font-size: 2.5rem;
+    }
     .pricing{
         padding-left: 0;
         justify-content: center;
     }
 }
 @media screen and (max-width:500px) {
+    .main{
+        /* margin-left: -2rem; */
+    }
     .card-containers{
         display: grid;
         grid-template-columns: repeat(1,1fr);
@@ -56,11 +80,24 @@
     }
     .pricing h2{
         justify-content: center;
-        font-size: 2.8rem;
+        font-size: 2rem;
     }
     .worry-left h2{
         font-size: 2.8rem;
         justify-content: center;
     }
-
+    .pricing-cards{
+        display: flex;
+        margin: 2rem;
+    }
+    .customer h2{
+        font-size: 2.8rem;
+        align-items: center;
+    }
+    .card-containers{
+        margin: 2rem;
+    }
+    .worry-left h2{
+        font-size: 2rem;
+    }
 }
