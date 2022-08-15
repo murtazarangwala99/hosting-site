@@ -1,0 +1,66 @@
+@media screen and (max-width:1356px){
+    .hero-one-left{
+        justify-content: center;
+        width: 85%;
+    }
+    .hero-one-right{
+        width: 85%;
+    }
+    .hero-two{
+        flex-direction: column-reverse;
+    }
+    .hero-two-right{
+        justify-content: center;
+        width: 85%;
+    }
+    .hero-two-left{
+        width: 85%;
+    }
+    .hero-two-left img{
+        width: 90%;
+    }
+    .hero-three-left{
+        justify-content: center;
+        width: 85%;
+    }
+    .hero-three-right{
+        width: 85%;
+    }
+
+}
+
+@media screen and (max-width:1004px){
+    .list-items{
+        gap: 1rem;
+    }
+    .card-containers{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .hero-one-left{
+        justify-content: center;
+        width: 85%;
+    }
+    .pricing{
+        padding-left: 0;
+        justify-content: center;
+    }
+}
+@media screen and (max-width:500px) {
+    .card-containers{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .staff-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .pricing h2{
+        justify-content: center;
+        font-size: 2.8rem;
+    }
+    .worry-left h2{
+        font-size: 2.8rem;
+        justify-content: center;
+    }
+
+}
