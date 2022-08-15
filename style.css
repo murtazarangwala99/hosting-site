@@ -345,7 +345,7 @@ body{
     position: relative;
     bottom: 0px;
     margin: 4.4rem 4.4rem 2.5rem;
-    gap: 6rem;
+    gap: 4rem;
     flex-wrap: wrap;
 }
 .footer-heading{
